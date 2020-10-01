@@ -1,7 +1,18 @@
 import React from 'react';
 
-function Welcome(){
-    return <h1>hey there!!</h1>
+// function formatDate(date){
+//     return date.toLocaleDateString();
+// }
+
+function Welcome(props){
+    return(
+        <div>
+            {props.author.name}
+
+         
+        </div>
+    )
 }
+
 
 export default Welcome
